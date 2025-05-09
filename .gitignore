@@ -1,0 +1,37 @@
+# STM32CubeIDE generated files
+*.launch
+*.log
+*.bin
+*.elf
+*.hex
+*.o
+*.d
+*.dep
+*.map
+*.lst
+
+# Backup files
+*~
+
+# Eclipse/IDE metadata
+.metadata/
+.settings/
+*.tmp
+*.swp
+*.bak
+
+# Build outputs
+/Debug/
+/Release/
+/build/
+/build-debug/
+/build-release/
+
+# Cube auto-generated files (optional, only if you don't want to track them)
+/Drivers/CMSIS/
+/Drivers/STM32*/      # Only if you haven't modified them
+/STM32CubeMX.config
+
+# OS-specific
+.DS_Store
+Thumbs.db
